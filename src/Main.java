@@ -3,6 +3,7 @@ import Ejercicio_3.Ejercicio_3;
 import Ejercicio_4.Ejercicio_4;
 import Ejercicio_5y6.Ejercicio_5y6;
 import Ejercicio_7.Ejercicio_7;
+import Ejercicio_8.Ejercicio_8;
 
 import java.util.Scanner;
 
@@ -28,6 +29,9 @@ public class Main {
 
         Ejercicio_7 ejercicio_7 = new Ejercicio_7();
         ejercicio_7.Practica_7();
+
+        Ejercicio_8 ejercicio_8 = new Ejercicio_8();
+        ejercicio_8.Practica_8();
 
 
     }
