@@ -2,6 +2,7 @@ import Ejercicio1.Ejercicio1;
 import Ejercicio_10.Ejercicio_10;
 import Ejercicio_11.Ejercicio_11;
 import Ejercicio_12.Ejercicio_12;
+import Ejercicio_13.Ejercicio_13;
 import Ejercicio_3.Ejercicio_3;
 import Ejercicio_4.Ejercicio_4;
 import Ejercicio_5y6.Ejercicio_5y6;
@@ -48,6 +49,9 @@ public class Main {
 
         Ejercicio_12 ejercicio_12 = new Ejercicio_12();
         ejercicio_12.Practica_12();
+
+        Ejercicio_13 ejercicio_13 = new Ejercicio_13();
+        ejercicio_13.Practica_13();
 
     }
 }
