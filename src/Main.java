@@ -1,5 +1,6 @@
 import Ejercicio1.Ejercicio1;
 import Ejercicio_10.Ejercicio_10;
+import Ejercicio_11.Ejercicio_11;
 import Ejercicio_3.Ejercicio_3;
 import Ejercicio_4.Ejercicio_4;
 import Ejercicio_5y6.Ejercicio_5y6;
@@ -40,6 +41,9 @@ public class Main {
 
         Ejercicio_10 ejercicio_10 = new Ejercicio_10();
         ejercicio_10.Practica_10();
+
+        Ejercicio_11 ejercicio_11 = new Ejercicio_11();
+        ejercicio_11.Practica_11();
 
     }
 }
