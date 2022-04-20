@@ -1,4 +1,4 @@
-import Ejercicio1.Ejercicio1;
+import Ejercicio1.Ejercicio1y2;
 import Ejercicio_10.Ejercicio_10;
 import Ejercicio_11.Ejercicio_11;
 import Ejercicio_12.Ejercicio_12;
@@ -19,8 +19,8 @@ public class Main_1_al_15 {
 
         Scanner sc = new Scanner(System.in);
 
-        Ejercicio1 ejercicio1 = new Ejercicio1();
-        ejercicio1.Practica1();
+        Ejercicio1y2 ejercicio1y2 = new Ejercicio1y2();
+        ejercicio1y2.Practica1();
 
         Ejercicio_3 ejercicio_3 = new Ejercicio_3();
         ejercicio_3.Practica_3();

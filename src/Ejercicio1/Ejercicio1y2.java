@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 //Respuesta de ejercicio 1 y 2
 
-public class Ejercicio1 {
+public class Ejercicio1y2 {
 
     public void Practica1() {
         Scanner sc = new Scanner(System.in);
