@@ -33,10 +33,10 @@ public class Ejercicio_11 {
             }
         }
         //impresión de recorrido contando vocales
-        System.out.println("The Phrase " + phrase + "contains " + contadorA + " As");
-        System.out.println("The Phrase " + phrase + "contains " + contadorE + " Es");
-        System.out.println("The Phrase " + phrase + "contains " + contadorI + " Is");
-        System.out.println("The Phrase " + phrase + "contains " + contadorO + " Os");
-        System.out.println("The Phrase " + phrase + "contains " + contadorU + " Us");
+        System.out.println("The Phrase " + phrase + " contains " + contadorA + " As");
+        System.out.println("The Phrase " + phrase + " contains " + contadorE + " Es");
+        System.out.println("The Phrase " + phrase + " contains " + contadorI + " Is");
+        System.out.println("The Phrase " + phrase + " contains " + contadorO + " Os");
+        System.out.println("The Phrase " + phrase + " contains " + contadorU + " Us");
     }
 }

@@ -11,7 +11,7 @@ public class Ejercicio_4 {
         System.out.println("Please, input price of product to calculate the IVA(with decimals) : ");
         String inputPrice = sc.nextLine();
         double price = Double.parseDouble(inputPrice);
-        double IVA = 19;
+        double IVA = 21;
 
         double ivaCalculation = (price*IVA)/100;
         double priceCalculation = price+ivaCalculation;

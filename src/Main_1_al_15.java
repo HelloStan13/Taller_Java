@@ -14,7 +14,7 @@ import Ejercicio_9.Ejercicio_9;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_1_al_15 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
