@@ -24,7 +24,7 @@ public class Persona {
         this.weight = 0;
         this.height = 0;
 
-        System.out.println("Constructor Working.");
+        System.out.println("Constructor 1");
     }
 
     public Persona(String name, int age, char sex) {
@@ -32,7 +32,7 @@ public class Persona {
         this.age = age;
         this.sex = sex;
 
-        System.out.println("Constructor Working.");
+        System.out.println("Constructor 2");
     }
 
     public Persona(String name, int age, char sex, int DNI, double weight, double height) {
@@ -42,14 +42,11 @@ public class Persona {
         this.DNI = DNI;
         this.weight = weight;
         this.height = height;
-
-        System.out.println("Constructor Working.");
-
+        System.out.println("Constructor 3");
     }
 
     public void setName(String name) {
         this.name = name;
-
     }
 
     public String getName() {
@@ -58,7 +55,6 @@ public class Persona {
 
     public void setAge(int age) {
         this.age = age;
-
     }
 
     public int getAge(int age) {
@@ -67,7 +63,6 @@ public class Persona {
 
     public void setSex(char sex) {
         this.sex = sex;
-
     }
 
     public char getSex() {
@@ -76,7 +71,6 @@ public class Persona {
 
     public void setWeight(double weight) {
         this.weight = weight;
-
     }
 
     public double getWeight() {
@@ -91,7 +85,6 @@ public class Persona {
     public double getHeight() {
         return this.height;
     }
-
 
     public int calcIMC() {
 
@@ -122,10 +115,10 @@ public class Persona {
 
         boolean value = false;
         if (age < 18) {
-            System.out.println("Con " + age + ", eres muy chico. ");
+            System.out.println("Con " + age + ", eres muy joven.");
             value = false;
         } else {
-            System.out.println("Con " + age + " eres un gran hombre ");
+            System.out.println("Con " + age + " eres todo un adulto.");
             value = true;
         }
         return value;
@@ -133,23 +126,19 @@ public class Persona {
 
 
     public void comprobarSexo(char sex) {
-        if (sex == 'H') {
+        if (sex == 'F') {
             System.out.println("Resultado correcto");
         } else {
             sex = 'H';
         }
         System.out.println("Tu sexo es: " + sex);
-
-
-
     }
 
-    public void generateDNI() {
+    public void generarDNI() {
         int randomDNI;
         double eightDigits = 10000000 + Math.random() * 90000000;
         randomDNI = (int) eightDigits;
         System.out.println(randomDNI);
-
     }
 
     public String toString() {

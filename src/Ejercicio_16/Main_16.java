@@ -6,6 +6,10 @@ public class Main_16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("**********************************************************");
+        System.out.println("********************* Cálculo de IMC *********************");
+        System.out.println("**********************************************************");
+
         System.out.println("Ingresa tu nombre:");
         String nombre = sc.nextLine();
         System.out.println("Ingresa tu edad:");
@@ -22,15 +26,17 @@ public class Main_16 {
         System.out.println("Espera tus resultados:");
         System.out.println("**********************************************************");
 
-        Persona objeto_1 = new Persona();
-        objeto_1.setName(nombre);
-        objeto_1.setAge(edad);
-        objeto_1.setWeight(peso);
-        objeto_1.setHeight(altura);
-        objeto_1.calcIMC();
-        objeto_1.comprobarSexo(sexo);
-        objeto_1.esMayorDeEdad();
-        System.out.println(objeto_1.toString());
+        //objeto 1 --> obtendrá las anteriores variables pedidas por teclado
+        Persona persona_1 = new Persona();
+        persona_1.setName(nombre);
+        persona_1.setAge(edad);
+        persona_1.setWeight(peso);
+        persona_1.setHeight(altura);
+        persona_1.calcIMC();
+        persona_1.comprobarSexo(sexo);
+        persona_1.esMayorDeEdad();
+        System.out.println(persona_1.toString());
+
 
         System.out.println("Ingresa tu nombre:");
         String nombre1 = sc.nextLine();
@@ -38,40 +44,37 @@ public class Main_16 {
         int edad1 = sc.nextInt();
         System.out.println("Ingresa tu sexo(H o M):");
         char sexo1 = sc.next().charAt(0);
-        System.out.println("Ingresa tu peso:");
-        String peso3 = sc.nextLine();
-        double peso2 = Double.parseDouble(sc.nextLine());
-        System.out.println("Ingresa tu altura (1.67):");
-        String altura3 = sc.nextLine();
-        double altura2 = Double.parseDouble(altura3);
         System.out.println("**********************************************************");
         System.out.println("Espera tus resultados:");
         System.out.println("**********************************************************");
 
-        Persona objeto_2 = new Persona();
-
-        objeto_2.setName(nombre1);
-        objeto_2.setAge(edad1);
-        objeto_2.setSex(sexo1);
-        objeto_2.calcIMC();
-        objeto_2.comprobarSexo(sexo);
-        objeto_2.esMayorDeEdad();
-        System.out.println(objeto_2.toString());
+        //objeto 2 --> obtendrá todos los anteriores menos el peso y la altura y el último por defecto
+        Persona persona_2 = new Persona();
+        persona_2.setName(nombre1);
+        persona_2.setAge(edad1);
+        persona_2.setSex(sexo1);
+        persona_2.setWeight(80.2);
+        persona_2.setHeight(1.70);
+        persona_2.calcIMC();
+        persona_2.comprobarSexo(sexo);
+        persona_2.esMayorDeEdad();
+        System.out.println(persona_2.toString());
 
         System.out.println("**********************************************************");
         System.out.println("Espera tus resultados:");
         System.out.println("**********************************************************");
 
-        Persona objeto_3 = new Persona();
+        //objeto 3 --> por defecto
+        Persona persona_3 = new Persona();
 
-        objeto_3.setName("Manuel");
-        objeto_3.setAge(25);
-        objeto_3.setWeight(70.2);
-        objeto_3.setHeight(1.6);
-        objeto_3.calcIMC();
-        objeto_3.comprobarSexo(sexo);
-        objeto_3.esMayorDeEdad();
-        System.out.println(objeto_3.toString());
+        persona_3.setName("Manuel");
+        persona_3.setAge(25);
+        persona_3.setWeight(70.2);
+        persona_3.setHeight(1.70);
+        persona_3.calcIMC();
+        persona_3.comprobarSexo(sexo);
+        persona_3.esMayorDeEdad();
+        System.out.println(persona_3.toString());
 
     }
 }
